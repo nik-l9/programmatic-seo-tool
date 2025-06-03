@@ -25,7 +25,7 @@ interface RecipeDetailPageProps {
   }
 }
 
-export default function RecipeDetailPage({ params }: RecipeDetailPageProps) {
+export default async function RecipeDetailPage({ params }: RecipeDetailPageProps) {
 
   const recipe = {
     id: params.id,
