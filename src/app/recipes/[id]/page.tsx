@@ -20,15 +20,17 @@ import {
 } from "lucide-react"
 
 interface RecipeDetailPageProps {
-  params: {
+  params: Promise<{
     id: string
-  }
+  }>
 }
 
 export default async function RecipeDetailPage({ params }: RecipeDetailPageProps) {
+  // Await the params
+  const { id } = await params
 
   const recipe = {
-    id: params.id,
+    id,
     name: "Product Reviews",
     template: "Review Template",
     status: "Published",
