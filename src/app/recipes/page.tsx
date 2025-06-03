@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 import { Plus, Search, Filter, MoreHorizontal, Eye, Edit, Trash2, Copy, Play, Zap } from "lucide-react"
+import Link from "next/link" 
 
 export default function RecipesPage() {
   const recipes = [
@@ -70,14 +71,14 @@ export default function RecipesPage() {
           <p className="text-white/60 text-lg">Manage your AI-powered content generation recipes</p>
         </div>
         <Button
-          className="gradient-primary hover:scale-105 transition-all duration-300 neon-glow rounded-xl px-6 py-3 font-semibold"
-          asChild
-        >
-          <a href="/recipes/new">
-            <Plus className="mr-2 h-5 w-5" />
-            New Recipe
-          </a>
-        </Button>
+  className="gradient-primary hover:scale-105 transition-all duration-300 neon-glow rounded-xl px-6 py-3 font-semibold"
+  asChild
+>
+  <Link href="/recipes/new">
+    <Plus className="mr-2 h-5 w-5" />
+    New Recipe
+  </Link>
+</Button>
       </div>
 
       {/* Filters */}

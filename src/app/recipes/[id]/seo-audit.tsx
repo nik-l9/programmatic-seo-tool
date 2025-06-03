@@ -22,7 +22,7 @@ import {
   ExternalLink,
 } from "lucide-react"
 
-export default function SEOAudit({ recipeId }: { recipeId: string }) {
+export default function SEOAudit() {
   const [isLoading, setIsLoading] = useState(false)
   const [selectedPage, setSelectedPage] = useState<string | null>(null)
 
@@ -151,18 +151,6 @@ export default function SEOAudit({ recipeId }: { recipeId: string }) {
     }, 2000)
   }
 
-  const getStatusIcon = (status: string) => {
-    switch (status) {
-      case "passed":
-        return <CheckCircle className="h-5 w-5 text-green-500" />
-      case "warning":
-        return <AlertCircle className="h-5 w-5 text-yellow-500" />
-      case "critical":
-        return <AlertCircle className="h-5 w-5 text-red-500" />
-      default:
-        return <Info className="h-5 w-5 text-blue-500" />
-    }
-  }
 
   const getStatusColor = (status: string) => {
     switch (status) {
@@ -431,7 +419,7 @@ export default function SEOAudit({ recipeId }: { recipeId: string }) {
                       <CheckCircle className="h-6 w-6 text-green-500" />
                     </div>
                     <p className="text-slate-300 font-medium">No critical issues found</p>
-                    <p className="text-sm text-slate-400 mt-1">This page doesn't have any critical SEO issues</p>
+<p className="text-sm text-slate-400 mt-1">This page doesn&#39;t have any critical SEO issues</p>
                   </div>
                 )}
               </TabsContent>
@@ -464,7 +452,7 @@ export default function SEOAudit({ recipeId }: { recipeId: string }) {
                       <CheckCircle className="h-6 w-6 text-green-500" />
                     </div>
                     <p className="text-slate-300 font-medium">No warnings found</p>
-                    <p className="text-sm text-slate-400 mt-1">This page doesn't have any SEO warnings</p>
+<p className="text-sm text-slate-400 mt-1">This page doesn&#39;t have any SEO warnings</p>
                   </div>
                 )}
               </TabsContent>

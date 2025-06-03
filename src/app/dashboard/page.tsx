@@ -23,7 +23,7 @@ export default function DashboardPage() {
       <div className="flex items-center justify-between">
         <div className="space-y-2">
           <h1 className="text-4xl font-bold gradient-text">Welcome back, John</h1>
-          <p className="text-white/60 text-lg">Your AI content empire is growing. Here's what's happening.</p>
+          <p className="text-white/60 text-lg">Your AI content empire is growing. Here&apos;s what&apos;s happening.</p>
         </div>
         <Button className="gradient-primary hover:scale-105 transition-all duration-300 neon-glow rounded-xl px-6 py-3 font-semibold">
           <Plus className="mr-2 h-5 w-5" />
@@ -125,8 +125,9 @@ export default function DashboardPage() {
               </div>
               <div className="flex-1 space-y-1">
                 <p className="text-sm font-semibold text-white leading-none">
-                  Recipe "Product Reviews" published successfully
-                </p>
+  Recipe &quot;Product Reviews&quot; published successfully
+</p>
+
                 <p className="text-sm text-white/60">Generated 45 pages • 2 hours ago</p>
               </div>
               <Badge className="status-published text-white font-medium px-3 py-1 rounded-full">Published</Badge>
@@ -137,7 +138,8 @@ export default function DashboardPage() {
                 <Rocket className="h-6 w-6 text-white" />
               </div>
               <div className="flex-1 space-y-1">
-                <p className="text-sm font-semibold text-white leading-none">Recipe "City Guides" in progress</p>
+                <p className="text-sm font-semibold text-white leading-none">Recipe &quot;City Guides&quot; in progress</p>
+
                 <p className="text-sm text-white/60">Generating content • 15 minutes ago</p>
               </div>
               <Badge className="status-progress text-white font-medium px-3 py-1 rounded-full">In Progress</Badge>
@@ -148,7 +150,8 @@ export default function DashboardPage() {
                 <AlertCircle className="h-6 w-6 text-white" />
               </div>
               <div className="flex-1 space-y-1">
-                <p className="text-sm font-semibold text-white leading-none">Recipe "Tech Tutorials" needs review</p>
+                <p className="text-sm font-semibold text-white leading-none">Recipe &quot;Tech Tutorials&quot; needs review</p>
+
                 <p className="text-sm text-white/60">3 pages failed SEO audit • 1 hour ago</p>
               </div>
               <Badge className="status-review text-white font-medium px-3 py-1 rounded-full">Needs Review</Badge>

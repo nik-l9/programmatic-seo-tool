@@ -5,7 +5,7 @@ import { Label } from "@/components/ui/label"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Switch } from "@/components/ui/switch"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { User, Mail, Lock, Bell, Globe, Shield, Upload, Save } from 'lucide-react'
+import { User, Lock, Bell, Globe, Shield, Upload, Save } from 'lucide-react'
 
 export default function SettingsPage() {
   return (

@@ -1,10 +1,9 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
-import { TrendingUp, TrendingDown, Eye, MousePointer, Search, Download, Calendar, BarChart3 } from 'lucide-react'
+import { TrendingUp, TrendingDown, Eye, MousePointer, Search, Download, BarChart3 } from 'lucide-react'
 
 export default function AnalyticsPage() {
   const metrics = [

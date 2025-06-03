@@ -225,7 +225,7 @@ export default function HelpPage() {
                       How to Optimize Your Content for Featured Snippets
                     </h3>
                     <p className="text-slate-400 text-sm mb-4">
-                      Learn how to structure your content to increase chances of appearing in Google's featured
+                      Learn how to structure your content to increase chances of appearing in Google&apos;s featured
                       snippets.
                     </p>
                     <div className="flex justify-between items-center">
