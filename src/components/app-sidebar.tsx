@@ -1,4 +1,4 @@
-import { Home, Settings, BarChart3, FileText, Zap, HelpCircle, CreditCard, Sparkles } from "lucide-react"
+import { Home, Settings, BarChart3, FileText, Zap, HelpCircle, CreditCard } from "lucide-react"
 import {
   Sidebar,
   SidebarContent,
