@@ -19,7 +19,14 @@ import {
   Clock,
 } from "lucide-react"
 
-export default function RecipeDetailPage({ params }: { params: { id: string } }) {
+interface RecipeDetailPageProps {
+  params: {
+    id: string
+  }
+}
+
+export default function RecipeDetailPage({ params }: RecipeDetailPageProps) {
+
   const recipe = {
     id: params.id,
     name: "Product Reviews",
