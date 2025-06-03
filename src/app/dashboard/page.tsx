@@ -22,7 +22,7 @@ export default function DashboardPage() {
       {/* Header */}
       <div className="flex items-center justify-between">
         <div className="space-y-2">
-          <h1 className="text-4xl font-bold gradient-text">Welcome back, John</h1>
+          <h1 className="text-4xl font-bold gradient-text">Welcome back, Smit.</h1>
           <p className="text-white/60 text-lg">Your AI content empire is growing. Here&apos;s what&apos;s happening.</p>
         </div>
         <Button className="gradient-primary hover:scale-105 transition-all duration-300 neon-glow rounded-xl px-6 py-3 font-semibold">
