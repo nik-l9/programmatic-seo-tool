@@ -8,9 +8,9 @@ import { Progress } from "@/components/ui/progress"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 import {
-  AlertCircle,
+  
   CheckCircle,
-  Info,
+  
   Search,
   FileText,
   Heading1,
